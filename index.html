@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night Invitation</title>
+    <style>
+        /* Styles remain unchanged from the previous code */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎬 A Movie Night with my gorjes lady  🍿</h1>
+    </header>
+
+    <main>
+        <div class="movie-container">
+            <div class="movie-card">
+                <img src="the grand budapest hotel.jpg" alt="The Grand Budapest Hotel">
+                <div class="movie-title">The Grand Budapest Hotel</div>
+            </div>
+
+            <div class="movie-card">
+                <img src="inception.jpg" alt="Inception">
+                <div class="movie-title">Inception</div>
+            </div>
+
+            <div class="movie-card">
+                <img src="la la land.jpg" alt="La La Land">
+                <div class="movie-title">La La Land</div>
+            </div>
+
+            <div class="movie-card">
+                <img src="the shawshank redemption.jpg" alt="The Shawshank Redemption">
+                <div class="movie-title">The Shawshank Redemption</div>
+            </div>
+
+            <div class="movie-card">
+                <img src="spirited away.jpg" alt="Spirited Away">
+                <div class="movie-title">Spirited Away</div>
+            </div>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" class="checkbox" id="grand-budapest-hotel">
+            <label for="grand-budapest-hotel">The Grand Budapest Hotel</label>
+            <input type="checkbox" class="checkbox" id="inception">
+            <label for="inception">Inception</label>
+            <input type="checkbox" class="checkbox" id="la-la-land">
+            <label for="la-la-land">La La Land</label>
+            <input type="checkbox" class="checkbox" id="shawshank-redemption">
+            <label for="shawshank-redemption">The Shawshank Redemption</label>
+            <input type="checkbox" class="checkbox" id="spirited-away">
+            <label for="spirited-away">Spirited Away</label>
+        </div>
+
+        <button onclick="invite()">Send Invitation</button>
+
+    </main>
+
+    <script>
+        function invite() {
+            alert("Invitation sent! 🎉");
+        }
+    </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night Invitation</title>
+    <style>
+        body {
+            /* Add a background gradient for a more visually appealing look */
+            background: linear-gradient(to bottom, #3494e6, #ec6ead);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .movie-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .movie-card {
+            background-color: #fff;
+            border: 3px solid #3494e6; /* Add a blue border */
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid #3494e6; /* Match the border color */
+        }
+
+        .movie-title {
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .movie-ticket {
+            background-color: #fff;
+            border-radius: 0 0 10px 10px; /* Round only the bottom corners */
+            padding: 10px;
+            margin-top: -3px; /* Overlap with the border of the image */
+        }
+
+        .checkbox-container {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .checkbox {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night Invitation</title>
+    <style>
+        /* Styles remain unchanged from the previous code */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎬 Movie Night with You 🍿</h1>
+    </header>
+
+    <main>
+        <div class="movie-container">
+            <div class="movie-card">
+                <img src="the grand budapest hotel.jpg" alt="The Grand Budapest Hotel">
+                <div class="movie-title">The Grand Budapest Hotel</div>
+                <div class="movie-ticket">
+                    <p>Date: [16/12/2023]</p>
+                    <p>Time: [Your Chosen Time]</p>
+                    <p>Venue: Your Place</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="inception.jpg" alt="Inception">
+                <div class="movie-title">Inception</div>
+                <div class="movie-ticket">
+                    <p>Date: [16/12/2023]</p>
+                    <p>Time: [Your Chosen Time]</p>
+                    <p>Venue: Your Place</p>
+                    <p>Price: 10,99 (can be reduced 20% with a lil kiss)</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="la la land.jpg" alt="La La Land">
+                <div class="movie-title">La La Land</div>
+                <div class="movie-ticket">
+                    <p>Date: [16/12/2023]</p>
+                    <p>Time: [Your Chosen Time]</p>
+                    <p>Venue: Your Place</p>
+                    <p>Price: 12,99 (a selfie to get 50% discout)</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="the shawshank redemption.jpg" alt="The Shawshank Redemption">
+                <div class="movie-title">The Shawshank Redemption</div>
+                <div class="movie-ticket">
+                    <p>Date: [16/12/2023]</p>
+                    <p>Time: [Your Chosen Time]</p>
+                    <p>Venue: Your Place</p>
+                    <p>Price: 5,99 (foot pic to wtach it for free)</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="spirited away.jpg" alt="Spirited Away">
+                <div class="movie-title">Spirited Away</div>
+                <div class="movie-ticket">
+                    <p>Date: [16/12/2023]</p>
+                    <p>Time: [Your Chosen Time]</p>
+                    <p>Venue: Your Place</p>
+                    <p>Price: 13,99 (40% if u have a bf)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" class="checkbox" id="grand-budapest-hotel">
+            <label for="grand-budapest-hotel">The Grand Budapest Hotel</label>
+            <input type="checkbox" class="checkbox" id="inception">
+            <label for="inception">Inception</label>
+            <input type="checkbox" class="checkbox" id="la-la-land">
+            <label for="la-la-land">La La Land</label>
+            <input type="checkbox" class="checkbox" id="shawshank-redemption">
+            <label for="shawshank-redemption">The Shawshank Redemption</label>
+            <input type="checkbox" class="checkbox" id="spirited-away">
+            <label for="spirited-away">Spirited Away</label>
+        </div>
+
+        <button onclick="invite()">Send Invitation</button>
+
+    </main>
+
+    <script>
+        function invite() {
+            alert("Invitation sent! 🎉");
+        }
+    </script>
+
+</body>
+</html>
+
+
